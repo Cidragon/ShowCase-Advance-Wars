@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://buujs0qd8iubq"]
+
+[ext_resource type="Script" path="res://scenes/mouse/mouse.gd" id="1_gf0tq"]
+[ext_resource type="Texture2D" uid="uid://cabilexom060r" path="res://assets/tiles/tile_0061.png" id="2_pmgnp"]
+
+[node name="Mouse" type="Node2D"]
+script = ExtResource("1_gf0tq")
+
+[node name="cursor" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+texture = ExtResource("2_pmgnp")
+centered = false
